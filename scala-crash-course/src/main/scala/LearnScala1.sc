@@ -27,9 +27,9 @@ println(f"Zero padding on the left:  $numberOne%05d")
 
 println(s"I can use the s prefix to use variables like $numberOne $truth $letterA")
 
-println(s"The s prefix isn't limited to variables; I can include any prevcision, Like ${1+2}")
+println(s"The s prefix isn't limited to variables; I can include any precision, Like ${1+2}")
 
-val theUltimateAnswer: String = "To Life, the universe, and everythis is 42"
+val theUltimateAnswer: String = "To Life, the universe, and everything is 42"
 val pattern = """.* ([\d]+).*""".r
 val pattern(answerString) = theUltimateAnswer
 val answer = answerString.toInt

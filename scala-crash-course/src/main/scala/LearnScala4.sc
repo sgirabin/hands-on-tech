@@ -39,7 +39,7 @@ println(sum)
 
 // filter() removed stuff
 val iHateFives = numberList.filter(( x:Int) => x != 5)
-val iHateThress = numberList.filter( _ !=3 )
+val iHateThrees = numberList.filter( _ !=3 )
 
 // concatenate Lists
 val moreNumbers = List(6,7,8)
@@ -59,7 +59,7 @@ val distinctValues = lotsOfDuplicate.distinct
 
 val maxValue = numberList.max
 val sumValue = numberList.sum
-val hasThree = iHateThress.contains(3)
+val hasThree = iHateThrees.contains(3)
 
 // MAPS
 val shipMap = Map("Kirk" -> "Enterprise", "Picard" -> "Enterprise-D", "Janeway" -> "Voyager", "Sisko" -> "Deep Sea Nine")
